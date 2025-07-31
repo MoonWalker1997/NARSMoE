@@ -4,7 +4,7 @@ import torch.optim as optim
 import torchvision
 import torchvision.transforms as transforms
 
-from mnist.NN_modules import ExpertSystem
+from NN_modules import ExpertSystem
 from NARSSimulator import NARSSimulator  # 假设你把 NARSSimulator 放在 narss_module.py
 
 # ====== 1. 数据加载 ======
